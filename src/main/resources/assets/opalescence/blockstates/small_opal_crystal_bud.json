@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "opalescence:block/small_opal_crystal_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "opalescence:block/small_opal_crystal_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "opalescence:block/small_opal_crystal_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "opalescence:block/small_opal_crystal_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "opalescence:block/small_opal_crystal_bud"
+    },
+    "facing=west": {
+      "model": "opalescence:block/small_opal_crystal_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "opalescence:opal"
+  },
+  "result": "opalescence:cut_opal",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "opalescence:unpleasant_opal"
+  },
+  "result": "opalescence:unpleasant_opal_slab",
+  "count": 2
+}

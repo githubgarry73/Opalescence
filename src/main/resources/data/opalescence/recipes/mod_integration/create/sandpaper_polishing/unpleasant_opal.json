@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "opalescence:unpleasant_opal_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "opalescence:unpleasant_opal"
+    }
+  ]
+}

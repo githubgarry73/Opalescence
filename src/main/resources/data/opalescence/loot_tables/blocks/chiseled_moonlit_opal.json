@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "opalescence:chiseled_moonlit_opal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "opalescence:blocks/chiseled_moonlit_opal"
+}

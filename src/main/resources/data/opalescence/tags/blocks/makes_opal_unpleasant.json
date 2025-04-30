@@ -1,0 +1,13 @@
+{
+  "values": [
+    "opalescence:fireblu",
+    {
+      "id": "farmersdelight:organic_compost",
+      "required": false
+    },
+    {
+      "id": "alexscaves:guano_block",
+      "required": false
+    }
+  ]
+}

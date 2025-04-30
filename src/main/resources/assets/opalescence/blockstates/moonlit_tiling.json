@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "opalescence:block/moonlit_tiling",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "opalescence:block/moonlit_tiling",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "opalescence:block/moonlit_tiling"
+    },
+    "facing=west": {
+      "model": "opalescence:block/moonlit_tiling",
+      "y": 90
+    }
+  }
+}

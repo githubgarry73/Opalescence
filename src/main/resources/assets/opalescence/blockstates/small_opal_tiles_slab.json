@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "opalescence:block/slab/small_opal_tiles_top"
+    },
+    "type=bottom": {
+      "model": "opalescence:block/slab/small_opal_tiles_bottom"
+    },
+    "type=double": {
+      "model": "opalescence:block/small_opal_tiles"
+    }
+  }
+}
