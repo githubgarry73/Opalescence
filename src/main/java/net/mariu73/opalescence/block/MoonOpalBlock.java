@@ -28,7 +28,7 @@ public class MoonOpalBlock extends Block {
 
     public static int getColor(double x, double y, double z) {
         float zeroToOne = (float)(Math.sin(z / 32f) + y / 24f + x / 48d);
-        zeroToOne = zeroToOne - (int) zeroToOne;
+        zeroToOne = Math.abs(zeroToOne - (int) zeroToOne);
         float hue = Math.abs(zeroToOne - 0.5f) / 2 + 0.5f;
         float saturation = (Math.abs(zeroToOne - 0.5f) / 2 + 0.25f) / 3;
         return Color.HSBtoRGB(hue,saturation,1);

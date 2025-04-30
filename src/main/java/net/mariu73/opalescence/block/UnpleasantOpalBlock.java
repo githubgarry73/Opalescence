@@ -26,7 +26,7 @@ public class UnpleasantOpalBlock extends Block {
 
     public static int getColor(double x, double y, double z) {
         float hue = (float)(Math.cos(x / 16f) + y / 16f + z / 24d);
-        hue = hue - (int) hue;
+        hue = Math.abs(hue - (int) hue);
         hue *= 3;
         int third = (int) hue;
         float zeroToOne = hue - third;
