@@ -9,6 +9,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import org.joml.Vector3f;
 
+import java.awt.*;
+
 public class UnpleasantOpalBlock extends Block {
     public UnpleasantOpalBlock(Properties pProperties) {
         super(pProperties);
@@ -46,7 +48,7 @@ public class UnpleasantOpalBlock extends Block {
     }
 
     public static int vectorToRGB (Vector3f vector) {
-        return ((int) vector.x() << 8 | (int) vector.y()) << 8 | (int) vector.z();
+        return ((255 << 8 | (int) vector.x()) << 8 | (int) vector.y()) << 8 | (int) vector.z();
     }
 
 }
