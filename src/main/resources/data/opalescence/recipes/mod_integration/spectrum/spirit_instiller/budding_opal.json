@@ -1,4 +1,10 @@
 {
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spectrum"
+    }
+  ],
   "type": "spectrum:spirit_instiller",
   "time": 400,
   "experience": 8.0,
@@ -14,6 +20,6 @@
     "item": "opalescence:opal"
   },
   "result": {
-    "item": "opalescence:budding_opal"
+    "id": "opalescence:budding_opal"
   }
 }

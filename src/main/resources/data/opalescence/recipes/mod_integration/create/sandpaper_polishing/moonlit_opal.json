@@ -1,4 +1,10 @@
 {
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
   "type": "create:sandpaper_polishing",
   "ingredients": [
     {
@@ -7,7 +13,7 @@
   ],
   "results": [
     {
-      "item": "opalescence:moonlit_opal"
+      "id": "opalescence:moonlit_opal"
     }
   ]
 }
