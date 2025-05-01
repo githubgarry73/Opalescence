@@ -3,11 +3,12 @@ package net.mariu73.opalescence.block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;
-import net.minecraft.util.Mth;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
+
+import java.awt.*;
 
 public class OpalBlock extends Block {
 
@@ -29,8 +30,7 @@ public class OpalBlock extends Block {
 
     public static int getColor(double x, double y, double z) {
         float hue = (float)(Math.sin(x / 32f) + y / 24f + z / 48d);
-        hue = hue - (int) hue;
-        return Mth.hsvToRgb(hue,0.45f,1);
+        return Color.HSBtoRGB(hue,0.45f,1);
     }
 
 }
