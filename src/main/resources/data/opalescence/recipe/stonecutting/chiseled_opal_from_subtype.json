@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "opalescence:polished_opal"
+  },
+  "result": {
+    "id": "opalescence:chiseled_opal"
+  },
+  "count": 1
+}

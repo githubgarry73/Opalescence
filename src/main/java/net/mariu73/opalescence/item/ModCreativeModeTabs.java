@@ -8,22 +8,22 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Opalescence.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> OPALESCENCE_TAB = CREATIVE_MODE_TABS.register("opalescence_tab",
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> OPALESCENCE_TAB = CREATIVE_MODE_TABS.register("opalescence_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.OPAL.get()))
                     .title(Component.translatable("creativetab.opalescence_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
-                        for(RegistryObject<Block> block: ModBlocks.BLOCKS.getEntries()){
+                        for(DeferredHolder<Block, ? extends Block> block: ModBlocks.BLOCKS.getEntries()){
                             output.accept(block.get());
                         }
-                        for(RegistryObject<Item> item: ModItems.ITEMS.getEntries()){
+                        for(DeferredHolder<Item, ? extends Item> item: ModItems.ITEMS.getEntries()){
                             output.accept(item.get());
                         }
                     }))

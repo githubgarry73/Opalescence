@@ -12,6 +12,6 @@ public class ModBlockTags {
     public static TagKey<Block> MAKES_OPAL_MOONLIT = tag("makes_opal_moonlit");
 
     private static TagKey<Block> tag(String name){
-        return BlockTags.create(new ResourceLocation(Opalescence.MOD_ID, name));
+        return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Opalescence.MOD_ID, name));
     }
 }
