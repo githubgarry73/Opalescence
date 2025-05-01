@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "opalescence:moonlit_opal"
+  },
+  "result": {
+    "id": "opalescence:polished_moonlit_opal_stairs"
+  },
+  "count": 1
+}

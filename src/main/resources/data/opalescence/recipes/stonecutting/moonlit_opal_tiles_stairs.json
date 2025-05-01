@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "opalescence:moonlit_opal"
-  },
-  "result": "opalescence:moonlit_opal_tiles_stairs",
-  "count": 1
-}

@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "opalescence:opal_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "opalescence:opal"
+    }
+  ]
+}
