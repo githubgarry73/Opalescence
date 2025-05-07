@@ -43,13 +43,12 @@ public class BuddingOpalBlock extends OpalBlock {
                     cluster = ModBlocks.UNPLEASANT_OPAL_CRYSTAL_CLUSTER.get();
                 } else if (pLevel.getBlockState(pPos.below()).is(ModBlockTags.MAKES_OPAL_MOONLIT)) {
                     cluster = ModBlocks.MOONLIT_OPAL_CRYSTAL_CLUSTER.get();
+                } else if (skylight
+                        && (pLevel.getMoonPhase() < 3 || pLevel.getMoonPhase() > 5)
+                        && pLevel.getTimeOfDay(pLevel.dayTime()) > 0.35f
+                        && pLevel.getTimeOfDay(pLevel.dayTime()) < 0.65f) {
+                    cluster = ModBlocks.MOONLIT_OPAL_CRYSTAL_CLUSTER.get();
                 }
-            } else if (dirState.is(ModBlocks.OPAL_CRYSTAL_CLUSTER.get()) && dirState.getValue(AmethystClusterBlock.FACING) == direction
-                    && skylight
-                    && (pLevel.getMoonPhase() < 3 || pLevel.getMoonPhase() > 5)
-                    && pLevel.getTimeOfDay(pLevel.dayTime()) > 0.35f
-                    && pLevel.getTimeOfDay(pLevel.dayTime()) < 0.65f) {
-                cluster = ModBlocks.MOONLIT_OPAL_CRYSTAL_CLUSTER.get();
             }
 
 
