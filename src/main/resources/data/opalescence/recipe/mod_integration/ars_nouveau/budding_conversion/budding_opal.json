@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "ars_nouveau:budding_conversion",
+  "input": "opalescence:opal",
+  "result": "opalescence:budding_opal"
+}
