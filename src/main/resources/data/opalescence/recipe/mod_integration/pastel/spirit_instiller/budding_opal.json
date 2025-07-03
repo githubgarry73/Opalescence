@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pastel"
+    }
+  ],
+  "type": "pastel:spirit_instiller",
+  "time": 400,
+  "experience": 8.0,
+  "ingredient1": {
+    "item": "pastel:neolith",
+    "count": 4
+  },
+  "ingredient2": {
+    "item": "pastel:bismuth_crystal",
+    "count": 4
+  },
+  "center_ingredient": {
+    "item": "opalescence:opal"
+  },
+  "result": {
+    "id": "opalescence:budding_opal"
+  }
+}

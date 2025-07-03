@@ -3,6 +3,10 @@
     {
       "id": "spectrum:moonstone_block",
       "required": false
+    },
+    {
+      "id": "pastel:moonstone_block",
+      "required": false
     }
   ]
 }
