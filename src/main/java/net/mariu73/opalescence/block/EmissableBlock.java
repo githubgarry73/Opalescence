@@ -36,7 +36,7 @@ public class EmissableBlock extends Block {
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         ItemStack itemInHand = pPlayer.getItemInHand(pHand);
-        if (itemInHand.is(Items.GLOWSTONE_DUST)) {
+        if (itemInHand.is(Items.GLOW_INK_SAC)) {
             if (!pLevel.isClientSide) {
                 pLevel.playSound(null, pPos, SoundEvents.AMETHYST_BLOCK_STEP, SoundSource.BLOCKS, 0.6f, 1.2f);
                 pLevel.setBlockAndUpdate(pPos, pState.cycle(EMISSIVE));
@@ -49,7 +49,7 @@ public class EmissableBlock extends Block {
     @Override
     public @Nullable BlockState getStateForPlacement(BlockPlaceContext pContext) {
         BlockState ret = super.getStateForPlacement(pContext);
-        if (pContext.getPlayer() != null && pContext.getPlayer().getItemInHand(InteractionHand.OFF_HAND).is(Items.GLOWSTONE_DUST)) {
+        if (pContext.getPlayer() != null && pContext.getPlayer().getItemInHand(InteractionHand.OFF_HAND).is(Items.GLOW_INK_SAC)) {
             return ret.setValue(EMISSIVE, true);
         }
         return ret;
