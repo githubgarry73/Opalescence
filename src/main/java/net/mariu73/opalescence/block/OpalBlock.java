@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.state.BlockState;
 
 import java.awt.*;
 
-public class OpalBlock extends Block {
+public class OpalBlock extends EmissableBlock {
 
     public OpalBlock(Properties pProperties) {
         super(pProperties);

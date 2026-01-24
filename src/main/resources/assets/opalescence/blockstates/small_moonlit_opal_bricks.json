@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "emissive=false": {
       "model": "opalescence:block/small_opal_bricks"
+    },
+    "emissive=true": {
+      "model": "opalescence:block/emissive/small_opal_bricks"
     }
   }
 }

@@ -11,7 +11,7 @@ import org.joml.Vector3f;
 
 import java.awt.*;
 
-public class UnpleasantOpalBlock extends Block {
+public class UnpleasantOpalBlock extends EmissableBlock {
     public UnpleasantOpalBlock(Properties pProperties) {
         super(pProperties);
     }
