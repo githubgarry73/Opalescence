@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "emissive=false": {
       "model": "opalescence:block/opal"
+    },
+    "emissive=true": {
+      "model": "opalescence:block/emissive/opal"
     }
   }
 }

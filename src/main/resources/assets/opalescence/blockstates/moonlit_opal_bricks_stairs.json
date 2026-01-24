@@ -1,206 +1,411 @@
 {
   "variants": {
-    "facing=east,half=bottom,shape=inner_left": {
+    "facing=east,half=bottom,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "y": 270
     },
-    "facing=east,half=bottom,shape=inner_right": {
+    "facing=east,half=bottom,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner"
     },
-    "facing=east,half=bottom,shape=outer_left": {
+    "facing=east,half=bottom,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "y": 270
     },
-    "facing=east,half=bottom,shape=outer_right": {
+    "facing=east,half=bottom,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer"
     },
-    "facing=east,half=bottom,shape=straight": {
+    "facing=east,half=bottom,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks"
     },
-    "facing=east,half=top,shape=inner_left": {
+    "facing=east,half=top,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180
     },
-    "facing=east,half=top,shape=inner_right": {
+    "facing=east,half=top,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
-    "facing=east,half=top,shape=outer_left": {
+    "facing=east,half=top,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180
     },
-    "facing=east,half=top,shape=outer_right": {
+    "facing=east,half=top,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
-    "facing=east,half=top,shape=straight": {
+    "facing=east,half=top,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
       "uvlock": true,
       "x": 180
     },
-    "facing=north,half=bottom,shape=inner_left": {
+    "facing=north,half=bottom,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "y": 180
     },
-    "facing=north,half=bottom,shape=inner_right": {
+    "facing=north,half=bottom,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "y": 270
     },
-    "facing=north,half=bottom,shape=outer_left": {
+    "facing=north,half=bottom,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "y": 180
     },
-    "facing=north,half=bottom,shape=outer_right": {
+    "facing=north,half=bottom,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "y": 270
     },
-    "facing=north,half=bottom,shape=straight": {
+    "facing=north,half=bottom,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
       "uvlock": true,
       "y": 270
     },
-    "facing=north,half=top,shape=inner_left": {
+    "facing=north,half=top,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
-    "facing=north,half=top,shape=inner_right": {
+    "facing=north,half=top,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180
     },
-    "facing=north,half=top,shape=outer_left": {
+    "facing=north,half=top,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
-    "facing=north,half=top,shape=outer_right": {
+    "facing=north,half=top,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180
     },
-    "facing=north,half=top,shape=straight": {
+    "facing=north,half=top,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
-    "facing=south,half=bottom,shape=inner_left": {
+    "facing=south,half=bottom,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner"
     },
-    "facing=south,half=bottom,shape=inner_right": {
+    "facing=south,half=bottom,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "y": 90
     },
-    "facing=south,half=bottom,shape=outer_left": {
+    "facing=south,half=bottom,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer"
     },
-    "facing=south,half=bottom,shape=outer_right": {
+    "facing=south,half=bottom,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "y": 90
     },
-    "facing=south,half=bottom,shape=straight": {
+    "facing=south,half=bottom,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
       "uvlock": true,
       "y": 90
     },
-    "facing=south,half=top,shape=inner_left": {
+    "facing=south,half=top,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
-    "facing=south,half=top,shape=inner_right": {
+    "facing=south,half=top,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180,
       "y": 180
     },
-    "facing=south,half=top,shape=outer_left": {
+    "facing=south,half=top,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
-    "facing=south,half=top,shape=outer_right": {
+    "facing=south,half=top,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180,
       "y": 180
     },
-    "facing=south,half=top,shape=straight": {
+    "facing=south,half=top,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
-    "facing=west,half=bottom,shape=inner_left": {
+    "facing=west,half=bottom,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "y": 90
     },
-    "facing=west,half=bottom,shape=inner_right": {
+    "facing=west,half=bottom,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "y": 180
     },
-    "facing=west,half=bottom,shape=outer_left": {
+    "facing=west,half=bottom,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "y": 90
     },
-    "facing=west,half=bottom,shape=outer_right": {
+    "facing=west,half=bottom,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "y": 180
     },
-    "facing=west,half=bottom,shape=straight": {
+    "facing=west,half=bottom,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
       "uvlock": true,
       "y": 180
     },
-    "facing=west,half=top,shape=inner_left": {
+    "facing=west,half=top,shape=inner_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180,
       "y": 180
     },
-    "facing=west,half=top,shape=inner_right": {
+    "facing=west,half=top,shape=inner_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_inner",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
-    "facing=west,half=top,shape=outer_left": {
+    "facing=west,half=top,shape=outer_left,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180,
       "y": 180
     },
-    "facing=west,half=top,shape=outer_right": {
+    "facing=west,half=top,shape=outer_right,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks_outer",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
-    "facing=west,half=top,shape=straight": {
+    "facing=west,half=top,shape=straight,emissive=false": {
       "model": "opalescence:block/stairs/opal_bricks",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,half=bottom,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner"
+    },
+    "facing=east,half=bottom,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer"
+    },
+    "facing=east,half=bottom,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks"
+    },
+    "facing=east,half=top,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=east,half=top,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=east,half=top,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,half=bottom,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,half=top,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,half=top,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=south,half=bottom,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner"
+    },
+    "facing=south,half=bottom,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer"
+    },
+    "facing=south,half=bottom,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=outer_left,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=outer_right,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=straight,emissive=true": {
+      "model": "opalescence:block/emissive/stairs/opal_bricks",
       "uvlock": true,
       "x": 180,
       "y": 180

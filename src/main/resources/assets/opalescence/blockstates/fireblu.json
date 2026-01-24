@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "emissive=false": {
       "model": "opalescence:block/fireblu"
+    },
+    "emissive=true": {
+      "model": "opalescence:block/emissive/fireblu"
     }
   }
 }

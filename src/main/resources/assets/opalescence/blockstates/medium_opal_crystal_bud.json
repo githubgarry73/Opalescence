@@ -1,28 +1,54 @@
 {
   "variants": {
-    "facing=down": {
+    "facing=down,emissive=false": {
       "model": "opalescence:block/medium_opal_crystal_bud",
       "x": 180
     },
-    "facing=east": {
+    "facing=east,emissive=false": {
       "model": "opalescence:block/medium_opal_crystal_bud",
       "x": 90,
       "y": 90
     },
-    "facing=north": {
+    "facing=north,emissive=false": {
       "model": "opalescence:block/medium_opal_crystal_bud",
       "x": 90
     },
-    "facing=south": {
+    "facing=south,emissive=false": {
       "model": "opalescence:block/medium_opal_crystal_bud",
       "x": 90,
       "y": 180
     },
-    "facing=up": {
+    "facing=up,emissive=false": {
       "model": "opalescence:block/medium_opal_crystal_bud"
     },
-    "facing=west": {
+    "facing=west,emissive=false": {
       "model": "opalescence:block/medium_opal_crystal_bud",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down,emissive=true": {
+      "model": "opalescence:block/emissive/medium_opal_crystal_bud",
+      "x": 180
+    },
+    "facing=east,emissive=true": {
+      "model": "opalescence:block/emissive/medium_opal_crystal_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,emissive=true": {
+      "model": "opalescence:block/emissive/medium_opal_crystal_bud",
+      "x": 90
+    },
+    "facing=south,emissive=true": {
+      "model": "opalescence:block/emissive/medium_opal_crystal_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,emissive=true": {
+      "model": "opalescence:block/emissive/medium_opal_crystal_bud"
+    },
+    "facing=west,emissive=true": {
+      "model": "opalescence:block/emissive/medium_opal_crystal_bud",
       "x": 90,
       "y": 270
     }

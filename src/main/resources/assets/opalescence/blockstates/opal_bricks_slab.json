@@ -1,13 +1,22 @@
 {
   "variants": {
-    "type=top": {
+    "type=top,emissive=false": {
       "model": "opalescence:block/slab/opal_bricks_top"
     },
-    "type=bottom": {
+    "type=bottom,emissive=false": {
       "model": "opalescence:block/slab/opal_bricks_bottom"
     },
-    "type=double": {
+    "type=double,emissive=false": {
       "model": "opalescence:block/opal_bricks"
+    },
+    "type=top,emissive=true": {
+      "model": "opalescence:block/emissive/slab/opal_bricks_top"
+    },
+    "type=bottom,emissive=true": {
+      "model": "opalescence:block/emissive/slab/opal_bricks_bottom"
+    },
+    "type=double,emissive=true": {
+      "model": "opalescence:block/emissive/opal_bricks"
     }
   }
 }

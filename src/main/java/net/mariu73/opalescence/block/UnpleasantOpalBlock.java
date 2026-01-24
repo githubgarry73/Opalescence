@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import org.joml.Vector3f;
 
-public class UnpleasantOpalBlock extends Block {
+public class UnpleasantOpalBlock extends EmissableBlock {
     public UnpleasantOpalBlock(Properties pProperties) {
         super(pProperties);
     }
